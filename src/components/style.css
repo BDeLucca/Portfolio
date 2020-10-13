@@ -1,0 +1,42 @@
+:root {
+  background-color: black;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Main */
+
+.photo-name-container {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.photo-name-container img {
+  grid-area: 1 / 1 / 2 / 2;
+  justify-self: center;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.name-container {
+  grid-area: 1 / 2 / 2 / 3;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container h1 {
+  margin: 0;
+}
+
+.about-projects-container {
+  display: flex;
+}
+
+.about-projects-container img {
+  height: 30vh;
+}

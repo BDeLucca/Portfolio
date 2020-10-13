@@ -1,5 +1,9 @@
 import React from "react";
 import "../style.css";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import EmailIcon from "@material-ui/icons/Email";
 
 function Main() {
   return (
@@ -13,11 +17,14 @@ function Main() {
       </div>
       <div className="about-projects-container">
         <img src={require("../../assets/AboutMyself.jpg")}></img>
-        <div>Extra</div>
-        <img src={require("../../assets/AboutMyself.jpg")}></img>
+        <img src={require("../../assets/Click-Click-Print.png")}></img>
       </div>
       <div className="contact">
-        Contact me: Gmail Instagram Facebook Twitter
+        <h5>Contact Me</h5>
+        <div className="contact-icons">
+          <EmailIcon /> <InstagramIcon /> <FacebookIcon />
+          <TwitterIcon />
+        </div>
       </div>
     </div>
   );

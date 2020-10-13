@@ -2,28 +2,35 @@
   background-color: black;
   color: aliceblue;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+/* App */
+nav {
+  background-color: indianred;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  align-self: center;
 }
 
 /* Main */
 
 .photo-name-container {
+  background-color: indigo;
   height: 30vh;
-  display: grid;
-  grid-template-columns: 2fr 5fr;
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .photo-name-container img {
-  grid-area: 1 / 1 / 2 / 2;
+  margin-right: 10%;
   justify-self: center;
   border-radius: 50%;
   height: 100%;
 }
 
 .name-container {
-  grid-area: 1 / 2 / 2 / 3;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -34,9 +41,32 @@
 }
 
 .about-projects-container {
+  padding: 2%;
   display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .about-projects-container img {
+  margin-left: 5%;
   height: 30vh;
+  border-radius: 2%;
+}
+
+.contact {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  width: 11vw;
+  padding: 0.5%;
+}
+
+.contact-icons > * {
+  margin-left: 5%;
 }

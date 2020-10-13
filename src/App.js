@@ -9,19 +9,13 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Projects</Link>
-            </li>
-          </ul>
-        </nav>
+        <div className="nav-container">
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/users">Projects</Link>
+          </nav>
+        </div>
 
         <Switch>
           <Route path="/about">

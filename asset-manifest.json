@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.da084c8a.chunk.css",
+    "main.js": "/Portfolio/static/js/main.24f9c388.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.24f9c388.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/js/2.44a81c96.chunk.js": "/Portfolio/static/js/2.44a81c96.chunk.js",
+    "static/js/2.44a81c96.chunk.js.map": "/Portfolio/static/js/2.44a81c96.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.9e1f782acc3e8c9ff367c586de0c175c.js": "/Portfolio/precache-manifest.9e1f782acc3e8c9ff367c586de0c175c.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.da084c8a.chunk.css.map": "/Portfolio/static/css/main.da084c8a.chunk.css.map",
+    "static/js/2.44a81c96.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.44a81c96.chunk.js.LICENSE.txt",
+    "static/media/AboutMyself.jpg": "/Portfolio/static/media/AboutMyself.4bfeed38.jpg",
+    "static/media/About_Me.jpg": "/Portfolio/static/media/About_Me.bb7742f9.jpg",
+    "static/media/Click-Click-Print.png": "/Portfolio/static/media/Click-Click-Print.f5b77347.png",
+    "static/media/MainPhoto.png": "/Portfolio/static/media/MainPhoto.03cbda92.png",
+    "static/media/NoSQL.jpg": "/Portfolio/static/media/NoSQL.ecd56603.jpg",
+    "static/media/SQL.png": "/Portfolio/static/media/SQL.21812f6d.png",
+    "static/media/html-css.png": "/Portfolio/static/media/html-css.363dbb34.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e440ee5a.js",
+    "static/js/2.44a81c96.chunk.js",
+    "static/css/main.da084c8a.chunk.css",
+    "static/js/main.24f9c388.chunk.js"
+  ]
+}

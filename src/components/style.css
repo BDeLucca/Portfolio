@@ -239,6 +239,15 @@ nav .link:hover {
   flex-direction: column;
   margin: 0 20px;
 }
+.scheme-container h4 {
+  font-size: 20px;
+  align-self: center;
+  margin-bottom: 10px;
+}
+
+.scheme-container a {
+  align-self: center;
+}
 
 .scheme-container img {
   width: 30vh;
@@ -247,6 +256,11 @@ nav .link:hover {
 .git-desc-container {
   display: flex;
   align-items: center;
+}
+
+.icon-scheme {
+  color: white;
+  margin-left: 8px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -311,12 +325,6 @@ nav .link:hover {
   }
   /* About */
 
-  .tech-container {
-  }
-
-  .tech-container h3 {
-  }
-
   .list-container {
     align-self: center;
     width: 60vw;
@@ -342,6 +350,7 @@ nav .link:hover {
     align-self: center;
     width: 65%;
     text-align: center;
+    margin: 0;
   }
 
   .description-container img {

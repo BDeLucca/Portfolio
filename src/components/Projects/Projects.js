@@ -8,25 +8,26 @@ function Projects() {
       <h2>Projects</h2>
       <div className="projects">
         <Scheme
-          number="1"
+          name="Click-Click-Print"
+          source={require("../../assets/Click-Click-Print.png")}
+          link={"https://www.clickclickprint.org/"}
+          desc="Label maker Website"
+          gitlink="https://github.com/Hangrykat/Click-click-print"
+        />
+        <Scheme
+          name="1"
           source={require("../../assets/Click-Click-Print.png")}
           link={"https://www.clickclickprint.org/"}
           desc="Label maker Website"
         />
         <Scheme
-          number="1"
+          name="1"
           source={require("../../assets/Click-Click-Print.png")}
           link={"https://www.clickclickprint.org/"}
           desc="Label maker Website"
         />
         <Scheme
-          number="1"
-          source={require("../../assets/Click-Click-Print.png")}
-          link={"https://www.clickclickprint.org/"}
-          desc="Label maker Website"
-        />
-        <Scheme
-          number="1"
+          name="1"
           source={require("../../assets/Click-Click-Print.png")}
           link={"https://www.clickclickprint.org/"}
           desc="Label maker Website"

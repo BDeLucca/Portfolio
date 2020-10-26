@@ -14,7 +14,7 @@ function App() {
       <div className="page-container">
         <div className="nav-container">
           <nav>
-            <Link className="link" to="/">
+            <Link className="link" to="/Portfolio">
               Home
             </Link>
             <Link className="link" to="/projects">
@@ -27,7 +27,7 @@ function App() {
           <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/">
+          <Route path="/Portfolio">
             <Main />
           </Route>
         </Switch>

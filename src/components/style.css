@@ -68,6 +68,15 @@ nav .link:hover {
 
 /* Main */
 
+.about-wrapper {
+  margin-top: 60px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .photo-name-container {
   height: 15vw;
   display: flex;
@@ -87,6 +96,7 @@ nav .link:hover {
   align-self: center;
   display: flex;
   flex-direction: column;
+  width: 280px;
 }
 
 .name-container h1 {
@@ -104,30 +114,14 @@ nav .link:hover {
 .img-container-main {
   height: 20vw;
   position: relative;
-}
-
-.img-container-main2 {
-  height: 20vw;
-  position: relative;
-  margin-left: 5%;
+  max-height: 200px;
 }
 
 .hover-img {
   height: 20vw;
-  width: 15vw;
-  background-color: #087e8b;
-  border-radius: 2%;
-  position: absolute;
-  opacity: 0;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hover-img2 {
-  height: 20vw;
+  max-height: 200px;
   width: 39.8vw;
+  max-width: 398px;
   background-color: #ff5a5f;
   border-radius: 2%;
   position: absolute;
@@ -138,18 +132,17 @@ nav .link:hover {
   align-items: center;
 }
 
-.hover-img p,
-.hover-img2 p {
+.hover-img p {
   font-size: 2vw;
 }
 
-.hover-img2:hover,
 .hover-img:hover {
   opacity: 0.7;
   transition: 0.3s;
 }
 
 .about-projects-container img {
+  max-height: 200px;
   height: 20vw;
   border-radius: 2%;
   top: 0;
@@ -194,6 +187,7 @@ nav .link:hover {
   margin-bottom: 5px;
   height: 3vw;
   list-style-type: none;
+  border-radius: 5px;
 }
 
 .description-container {
@@ -278,28 +272,15 @@ nav .link:hover {
 
   .hover-img {
     opacity: 0.5;
-    height: 50vw;
-    width: 38vw;
-    color: white;
-  }
-
-  .hover-img2 {
-    opacity: 0.5;
     height: 45vw;
     width: 89.5vw;
   }
 
-  .hover-img p,
-  .hover-img2 p {
+  .hover-img p {
     font-size: 25px;
   }
 
   .img-container-main {
-    width: fit-content;
-    height: 50vw;
-    margin-bottom: 20px;
-  }
-  .img-container-main2 {
     width: fit-content;
     height: fit-content;
     margin-left: 0;
@@ -307,10 +288,6 @@ nav .link:hover {
   }
 
   .img-container-main img {
-    height: 50vw;
-  }
-
-  .img-container-main2 img {
     height: 45vw;
     margin: 0;
     padding: 0;
@@ -337,26 +314,5 @@ nav .link:hover {
     margin-bottom: 8px;
     height: 8vw;
     list-style-type: none;
-  }
-
-  .description-container {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .description-container p {
-    align-self: center;
-    width: 65%;
-    text-align: center;
-    margin: 0;
-  }
-
-  .description-container img {
-    margin-top: 20px;
-    align-self: center;
-    height: 40vw;
-    width: 55vw;
   }
 }

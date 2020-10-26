@@ -1,5 +1,6 @@
 import React from "react";
 import "../style.css";
+import About from "../About/About";
 
 import { Link } from "react-router-dom";
 
@@ -13,21 +14,13 @@ function Main() {
           <h3>Junior Software Developer</h3>
         </div>
       </div>
+      <div className="about-wrapper">
+        <About />
+      </div>
       <div className="about-projects-container">
         <div className="img-container-main">
-          <Link className="link" to="/about">
-            <div className="hover-img">
-              <p>About Me</p>
-            </div>
-          </Link>
-          <img
-            src={require("../../assets/AboutMyself.jpg")}
-            alt="About Myself"
-          ></img>
-        </div>
-        <div className="img-container-main2">
           <Link className="link" to="/projects">
-            <div className="hover-img2">
+            <div className="hover-img">
               <p>Projects</p>
             </div>
           </Link>

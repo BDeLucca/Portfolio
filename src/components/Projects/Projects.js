@@ -15,22 +15,20 @@ function Projects() {
           gitlink="https://github.com/Hangrykat/Click-click-print"
         />
         <Scheme
-          name="1"
-          source={require("../../assets/Click-Click-Print.png")}
-          link={"https://www.clickclickprint.org/"}
-          desc="Label maker Website"
+          name="Meme Creator"
+          source={require("../../assets/memecreator.png")}
+          link={"https://bdelucca.github.io/memeCreator/"}
+          desc="Web to create memes"
+          gitlink="https://github.com/BDeLucca/memeCreator"
         />
         <Scheme
-          name="1"
-          source={require("../../assets/Click-Click-Print.png")}
-          link={"https://www.clickclickprint.org/"}
-          desc="Label maker Website"
-        />
-        <Scheme
-          name="1"
-          source={require("../../assets/Click-Click-Print.png")}
-          link={"https://www.clickclickprint.org/"}
-          desc="Label maker Website"
+          name="DROPA"
+          source={require("../../assets/DROPA.png")}
+          link={
+            "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3009-9"
+          }
+          desc="DRIP-seq optimized peak annotator"
+          gitlink="https://github.com/marcrusso/DROPA"
         />
       </div>
     </div>

@@ -218,12 +218,14 @@ nav .link:hover {
 
 .projects-container h2 {
   align-self: center;
+  margin-bottom: 40px;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 /* Scheme */
@@ -244,6 +246,7 @@ nav .link:hover {
 }
 
 .scheme-container img {
+  height: 20vh;
   width: 30vh;
 }
 
